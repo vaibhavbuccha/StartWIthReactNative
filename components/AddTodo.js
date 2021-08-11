@@ -7,7 +7,7 @@ const AddTodo = ({ submitHander }) => {
     setText(val);
   };
   return (
-    <View style={styles.container}>
+    <View>
       <TextInput
         style={styles.input}
         placeholder="New Todo...."
@@ -25,9 +25,6 @@ const AddTodo = ({ submitHander }) => {
 export default AddTodo;
 
 const styles = StyleSheet.create({
-  container: {
-    marginHorizontal: 40,
-  },
   input: {
     marginBottom: 10,
     paddingHorizontal: 8,
